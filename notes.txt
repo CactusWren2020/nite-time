@@ -1,0 +1,20 @@
+notes:
+
+images
+head/
+b&w/sepia woman looking left 45degree angle, portrait
+three/
+person, white background
+etimes, beige
+item on dappled monochrome
+slideshow/
+various classy sepia/retro/fashionable images
+collage-grid/
+sepia/beige images--jewelry, hands, hat, weird perspective
+image/
+woman facing left looking at camera
+img-ribbon/
+a hand, purse, b&W person, perfume, extreme close-up, part of pants
+750X464
+500X778
+500X374
