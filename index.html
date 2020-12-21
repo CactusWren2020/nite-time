@@ -55,15 +55,16 @@
         <h3><a href="#">About</a></h3>
       </div>
     </section>
+
     <section id="split-header">
       <div class="header-left">
-        <h1>Lorem de<br>ipsumes dolors<br>aments</h1>
+        <h1>Lorem de<br>ipsumes<br> dolors<br>aments</h1>
         <p>
           Lorem ipsum dolor sit amet, consec lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Amet, consec lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
         </p>
         <button>Visit the Shop</button>
       </div>
-      <div>2
+      <div class="header-image">
       </div>
     </section>
 
@@ -80,7 +81,7 @@
             
             <div class="inner">
               <img src="./427X570.jpg" class="flex"/>
-              <h2>Lorem Ipsum</h2>
+              <h3>Lorem Ipsum</h3>
               <p>$200.00</p>
             </div>
         </div>
@@ -90,7 +91,7 @@
              <div class="inner">
               <img src="./427X570.jpg"
               class="flex"/>
-                <h2>Lorem Ipsum</h2>
+                <h3>Lorem Ipsum</h3>
                 <p>$200.00</p>
             </div>
         </div>
@@ -99,7 +100,7 @@
           
           <div class="inner">
             <img src="./427X570.jpg" class="flex"/>
-            <h2>Lorem Ipsum</h2>
+            <h3>Lorem Ipsum</h3>
             <p>$200.00</p>
           </div>
          </div>
@@ -107,34 +108,15 @@
       </section>
 
     </section>
-    
-    <!-- <section id="large-slide-show" class="fade-in">
-        <a   id="chevron-left">  
-          <i class="feather icon icon-chevron-left"></i>
-        </a>
-        <a  id="chevron-right">
-          <i class="feather icon icon-chevron-right"></i>
-        </a>        <div>
-        <h2>Lorem Dolors Ament</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consec lorem dolor sit amet, consectetuer adipiscit. Lorem ipsum dolor sit amet, consec consectetuer adipiscing elit.
-        </p>
-        <p>
-          <a href="#">Learn More</a>
-        </p>
-      </div>   
-      </section> -->
-
+ 
       <section id="large-slide-show">
 
         <div class="mySlides fade">
           <img src="./clappingJoker.gif" >
         </div>
-        
         <div class="mySlides fade">
           <img src="./Dawkinsphotoshop.jpg" >
         </div>
-        
         <div class="mySlides fade">
           <img src="./780X864.jpg" >
         </div>
@@ -156,50 +138,69 @@
           </p>
         </div>
 
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
     </section>
 
     <div class="wrapper">
-      <div class="box a">
-        <button>a</button>
-      </div>
-      <div class="box b">
-        <button>b</button> 
-      </div>
-      <div class="box c">
-        <button>c</button>
-      </div>
-      <div class="box d">
-        <button>d</button>
-      </div>
+      <picture class="box a">
+        <img src="750X464.jpg"/>
+        <button>On the Blog</button>
+      </picture>
+      <picture class="box b">
+        <img src="750X464.jpg"/>
+        <button>Visit the Shop</button> 
+      </picture>
+      <picture class="box c">
+        <img src="750X464.jpg"/>
+        <button>About Us</button>
+      </picture>
+      <picture class="box d">
+        <img src="750X464.jpg"/>
+        <button>Contact Us</button>
+      </picture>
     </div>
 
 
     <section id="reverse-split-header">
-      <div class="left-split"></div>
+      <!-- <div class="left-split"></div> -->
+      <picture class="left-split">
+        <img src="500X778.jpg"/>
+      </picture>
       <div class="right-split">
-        <h2>Lorem de ipsumes<br>dolores aments</h2>
-        <p>Lorem ipsum dolor sit amet, consec lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Amet, consec lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-        <button>Work With Us</button>
+        <div>
+          <h2>Lorem de<br/> ipsumes dolores<br/> aments</h2>
+          <p>Lorem ipsum dolor sit amet, consec lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Amet, consec lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+          <button>Work With Us</button>
+        </div>
       </div>
     </section>
 
 
     <footer>
         <h2>Follow @NiteStyling</h2>
+
         <div class="img-ribbon">
-            <img src="./300X223.jpg"/>
-            <img src="./300X223.jpg"/>
-            <img src="./300X223.jpg"/>
-            <img src="./300X223.jpg"/>
-            <img src="./300X223.jpg"/>
-            <img src="./300X223.jpg"/>
+          <div class="img-cell"><img src="./300X223.jpg"/></div>
+          <div class="img-cell"><img src="./300X223.jpg"/></div>
+          <div class="img-cell"><img src="./300X223.jpg"/></div>
+          <div class="img-cell"><img src="./300X223.jpg"/></div>
+          <div class="img-cell"><img src="./300X223.jpg"/></div>
+          <div class="img-cell"><img src="./300X223.jpg"/></div>
         </div>
+
         <div class="mid-row">
             <div class="subscribe-form">
                 <h2>Subscribe for Updates</h2>
-                <input name="email"/>
+                <div class="inputs">
+                  <input name="email" placeholder="Email Address"/>
                 <button>Sign Up</button>
-                <div>icon | icon | icon | icon</div>
+                </div>
+                
+                <div class="icons">icon | icon | icon | icon</div>
             </div>
             <div class="home">
               <h3><a href="#">Home</a></h3>
@@ -219,7 +220,10 @@
               <h3><a href="#">Services</a></h3>
               <h3><a href="#">Contact</a></h3>
             </div>
+           
         </div>
+
+
         <div class="hr"></div>
         <div id="colophon">
           <div class="colophon-left">
@@ -231,9 +235,11 @@
           </div>
           <div class="colophon-right">
             <p>
-              <a href="#">Photos from Pixabay</a>
+              Photos from
+              <a href="#">Pixabay</a>
               |
-              <a href="#">Design by MikeCho.dev</a>
+              Design by
+              <a href="#">MikeCho.dev</a>
             </p>
           </div>
         </div>

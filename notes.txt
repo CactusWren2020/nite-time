@@ -18,3 +18,19 @@ a hand, purse, b&W person, perfume, extreme close-up, part of pants
 750X464
 500X778
 500X374
+
+grid
+ <div class="wrapper">
+      <div class="box a">
+        <button>a</button>
+      </div>
+      <div class="box b">
+        <button>b</button> 
+      </div>
+      <div class="box c">
+        <button>c</button>
+      </div>
+      <div class="box d">
+        <button>d</button>
+      </div>
+    </div>
