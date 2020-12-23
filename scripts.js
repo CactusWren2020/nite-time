@@ -1,22 +1,22 @@
 /* Mobile Menu Slide Out */
 
-// const mobileMenu = document.querySelector('#mobile-menu');
-// const mobileButton = document.querySelector('#mobile-menu-button');
-// const hamburgerIcon = document.querySelector('#hamburger-icon');
-// const xIcon = document.querySelector('#x-icon');
+const mobileMenu = document.querySelector('#mobile-menu');
+const mobileButton = document.querySelector('#mobile-menu-button');
+const hamburgerIcon = document.querySelector('#hamburger-icon');
+const xIcon = document.querySelector('#x-icon');
 
-// function menuToggle(sub) {
-// var closed = sub.className.indexOf('closed') !== -1;
-// if (closed) {
-//     sub.className = sub.className.replace('closed', 'open');
-// } else {
-//     sub.className = sub.className.replace('open', 'closed');
-// }
-// hamburgerIcon.classList.toggle('hidden');
-//     xIcon.classList.toggle('hidden');
-// }
+function menuToggle(sub) {
+var closed = sub.className.indexOf('closed') !== -1;
+if (closed) {
+    sub.className = sub.className.replace('closed', 'open');
+} else {
+    sub.className = sub.className.replace('open', 'closed');
+}
+hamburgerIcon.classList.toggle('hidden');
+    xIcon.classList.toggle('hidden');
+}
 
-// mobileButton.addEventListener('click', () => menuToggle(mobileMenu));
+mobileButton.addEventListener('click', () => menuToggle(mobileMenu));
 
 /* Slide Show */
 
@@ -56,7 +56,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("slide");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
